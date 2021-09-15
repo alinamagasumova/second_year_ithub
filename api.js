@@ -34,6 +34,7 @@ function showMe(){
                 zoom: 14
                 })
 
+                
             myGeoObject = new ymaps.GeoObject({
                 geometry: {
                     type: "Point",
