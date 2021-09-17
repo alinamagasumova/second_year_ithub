@@ -7,9 +7,14 @@ let Person = {
     gender: ''
 }
 let text = fs.readFileSync('ppl.csv', 'utf8');
-let arr = text.split(';');
-arr.splice(0,4);
-for (let f=0; f<arr.length; f++) {
-    // let names = arr[f]
-    console.log(arr[f])
-}
+let arr = text.split('\n');
+arr.shift();
+
+let arrObj = [];
+arr.forEach((e) => {
+    arrObj.push(e.split(";"))
+});
+arrObj.forEach((e) => {
+    e.pop()
+})
+console.log(arrObj)
