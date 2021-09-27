@@ -1,4 +1,4 @@
-let Person = class {
+class Person {
     constructor(name, surname, gender, birthDate) {
         this.name = name;
         this.surname = surname;
@@ -30,5 +30,4 @@ for (let i = 0; i < people.length; i++) {
     if (people[i].gender === "male") {
         male.push(people[i].docName);
     }
- }
-
+ };

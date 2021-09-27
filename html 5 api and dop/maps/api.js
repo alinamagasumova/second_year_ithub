@@ -1,6 +1,11 @@
 let myMap;
 
-function init(){
+function hohol(){
+    location.reload();
+    ymaps.ready(init);
+}
+
+function init() {
     myMap = new ymaps.Map("map", {
     center: [50.450458, 30.523460],
     zoom: 9
@@ -24,9 +29,14 @@ function init(){
 
     myMap.behaviors.disable('drag');
     myMap.behaviors.disable('scrollZoom');
-}
+};
 
 function showMe(){
+    location.reload();
+    ymaps.ready(me);
+}
+
+function me() {
     navigator.geolocation.getCurrentPosition(function(position) {
         if ("geolocation" in navigator) {
             myMap = new ymaps.Map("map", {
@@ -49,6 +59,6 @@ function showMe(){
             alert("Извините, нет доступной позиции.");
             console.log('lala');
         }
-    })
+    });
 }
 
