@@ -10,8 +10,9 @@ div#area {
     margin-top: 15px;
 }
 div#box {
-    width: 100px;
-    height: 100px;
+    width: 250px;
+    height: 250px;
     border: 3px dotted gray;
-    margin: 15px;
+    margin: auto;
+    background-size: contain;
 }
