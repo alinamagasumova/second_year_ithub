@@ -2,7 +2,7 @@ const http = require('http');
 const fs = require('fs');
 const { fileURLToPath } = require('url');
 const { RSA_NO_PADDING } = require('constants');
-const PORT = 4000;
+const PORT = 3329;
 const mimeTypes = {
     '.js': 'text/javascript',
     '.css': 'text/css',
