@@ -1,0 +1,24 @@
+table {
+    width: 50%;
+    border-spacing: 5px;
+}
+table tbody tr:nth-of-type(odd) {
+    background-color: #ddd;
+}
+table tbody tr:nth-of-type(even) {
+    background-color: #eee;
+}
+table thead {
+    background-color: black;
+    color: white;
+}
+td span {
+    text-align:center;
+    cursor:pointer; 
+    display:block;
+    margin:auto;
+}
+td span:hover {
+    background-color: yellow;
+    color: red;
+}
