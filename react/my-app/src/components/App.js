@@ -1,5 +1,5 @@
 import React from 'react';
-import Articles from './Articles.js'
+import Articles from './Article.js'
 
 function App() {
     return (
