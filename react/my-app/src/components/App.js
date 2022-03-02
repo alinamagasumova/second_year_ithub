@@ -1,13 +1,25 @@
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import React from 'react';
-import Articles from './Article.js'
+import Articles from './Articles';
+import Home from './Home';
+import About from './About';
+import NotFound from './NotFound';
 
 function App() {
     return (
         <div>
-            <h1 className='main'>Hello world!</h1>
-            <Articles title='Лежачий Тигр'></Articles>
-            <Articles title='Голодный Тигр'></Articles>
-            <Articles title='Спящий Тигр'></Articles>
+            <nav>
+                <a href='/'>Home</a>
+                <a href='/about'>About</a>
+            </nav>
+            <Router>
+                <Routes>
+                    <Route path='/' element={<Home/>}></Route>
+                    <Route path='/about' element={<About/>}></Route>
+                    <Route path='*' element={<NotFound/>}></Route>
+                </Routes>
+            </Router>
+            <Articles/>
         </div>
     )
 }

@@ -1,8 +1,8 @@
 import React from 'react'
 import Article from "./Article";
 
-function Articles (props) {
-    [
+function Articles () {
+    const article = [
     {
         id: 1,
         title: 'Заголовок 1',
@@ -26,7 +26,9 @@ function Articles (props) {
     ]
     return (
         <div>
-            {article.map((article)=> <Article title = {article.title}/>)}
+            {article.map(article => 
+            <Article title = {article.title} text = {article.text} id = {article.id}
+            />)}
         </div>
     )
 }
