@@ -5,10 +5,10 @@ function Header() {
         <header>
             <h2>Clay<span>.</span>co</h2>
             <nav className="list">
-                <a href="">About</a>
-                <a href="">Shop</a>
-                <a href="">Artists</a>
-                <a href="">Stories</a>
+                <a href="About">About</a>
+                <a href="Products">Shop</a>
+                <a href="Artists">Artists</a>
+                <a href="Stories">Stories</a>
             </nav>
             <div className="icons">
             <i className="fa-solid fa-magnifying-glass head-icon"></i>

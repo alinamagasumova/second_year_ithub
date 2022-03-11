@@ -15,8 +15,8 @@ function Main() {
 
             <div style={{"position": "relative"}}>
             <img src={Cup} alt='cup' className="imgCup"/>
-            <a href=''><img src={Circle} alt='circle' className="imgCircle"/></a>
-            <a href="" className="allPr">VIEW ALL PRODUCTS</a>
+            <a href='Products'><img src={Circle} alt='circle' className="imgCircle"/></a>
+            <a href="Products" className="allPr">VIEW ALL PRODUCTS</a>
             <div className='kastrDiv'><img src={Kastr} alt='kastr' className="imgKastr"/><p>Every item created in our studio is carefully crafted with a focus on the smallest detail. The art of pottery is our inspiration and passion.</p></div>
             </div>
         </main>

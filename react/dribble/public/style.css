@@ -6,7 +6,6 @@ body {
     color: rgb(32, 32, 32);
     font-family: "Inter", sans-serif;
 }
-
 .App {
     margin: 0 auto;
     width: 80%;
@@ -186,4 +185,8 @@ h1 {
     left: -33px;
     top: 12px;
     font-weight: bold;
+}
+
+.nf {
+    margin: 3rem 0;
 }
