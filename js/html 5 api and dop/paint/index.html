@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Рисовалка!!!</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .board {
+      width: 80vw;
+      height: 80vh;
+      box-shadow: 0 0 5px 0 #0002, 0 0 15px 0 #0002;
+      border-radius: 1rem;
+    }
+    
+    input {
+      position: absolute;
+      border: none;
+      outline: none;
+    }
+
+    [type='color'] {
+      width: 4vw;
+      height: 4vw;
+      top: 10vh;
+      left: 3vw;
+    }
+
+    [type = 'range'] {
+      height: 4vw;
+      left: 3vw;
+      width: calc(80vh - 7vw);
+      top: calc(10vh + 7vw);
+      transform-origin: right top;
+      transform: rotate(-90deg) translate(0, -60vh);
+      background: red;
+    }
+
+    [type='range']::before {
+      content: attr(min);
+    }
+
+    [type='range']::after {
+      content: attr(max);
+    }
+    </style>
+  <script src="script.js"></script>
+</head>
+<body>
+  <input type="color" value="">
+  <input type="range" min="2" max="20" step="2">
+  <div class="board"></div>
+</body>
+</html>

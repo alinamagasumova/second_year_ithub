@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<personal>
+    <employee>
+        <phone>898547373</phone>
+        <mail>Jogn2456@gmail.com</mail>
+        <name>
+            <first>John</first>
+            <middle>K.</middle>
+            <last>Smith</last>
+        </name>
+    </employee>
+    <employee>
+        <phone>1234-09-12</phone>
+        <email>smth@gmail.com</email>
+        <name>
+            <first>Mike</first>
+            <middle>K.</middle>
+            <last>Smith</last>
+        </name>
+    </employee>
+</personal>

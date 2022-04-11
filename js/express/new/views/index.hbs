@@ -1,0 +1,13 @@
+<h1>Наша команда</h1>
+<ul>
+    {{#each list}}
+        <li>{{this}}</li>
+    {{/each}}
+    <button class="mt-3 btn btn-dark" data-type="addUser">Добавить участника</button>
+</ul>
+<script>
+    let btn = document.querySelector("[data-type=\"addUser\"]");
+    btn.addEventListener("click", e => {
+        window.location.replace("/new");
+    })
+</script>
