@@ -6,6 +6,7 @@ import About from './About.js';
 import NotFound from './NotFound.js';
 import Products from './Products.js';
 import Stories from './Stories.js';
+import Artists from './Artists.js';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path='/about' element={<About/>}/>
           <Route path='/stories' element={<Stories/>}/>
           <Route path='/products' element={<Products/>}/>
+          <Route path='/artists' element={<Artists/>}/>
           <Route path='*' element={<NotFound/>}/>
         </Routes>
       </Router>

@@ -1,13 +1,13 @@
 import React from "react";
 import Awards from './home page/Awards'
 
-function Stories() {
+function Artists() {
     return (
         <div>
+            <p className="mt">Artists page</p>
             <Awards/>
-            <p className="mt">Stories page</p>
         </div>
     )
 }
 
-export default Stories
+export default Artists

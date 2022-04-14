@@ -1,8 +1,12 @@
 import React from "react";
+import Main from './home page/Main'
 
 function Products() {
     return (
-        <p className="mt">Products page</p>
+        <div>
+            <p className="mt">Products page</p>
+            <Main/>
+        </div>
     )
 }
 
