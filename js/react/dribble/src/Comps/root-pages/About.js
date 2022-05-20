@@ -1,5 +1,5 @@
 import React from "react";
-import Main from "./home page/Main";
+import Main from "../Main";
 
 function About() {
     return (

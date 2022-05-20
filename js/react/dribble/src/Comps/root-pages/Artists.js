@@ -1,5 +1,5 @@
 import React from "react";
-import Awards from './home page/Awards'
+import Awards from '../Awards'
 
 function Artists() {
     return (

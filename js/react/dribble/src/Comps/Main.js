@@ -1,8 +1,8 @@
 import React from "react";
-import Cup from "../../imgs/cup.png";
-import Bott from "../../imgs/bott.png";
-import Kastr from "../../imgs/kastr.png";
-import Circle from "../../imgs/circle.png";
+import Cup from "../imgs/cup.png";
+import Bott from "../imgs/bott.png";
+import Kastr from "../imgs/kastr.png";
+import Circle from "../imgs/circle.png"
 
 function Main() {
     return (

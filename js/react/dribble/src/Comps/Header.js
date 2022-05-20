@@ -11,7 +11,8 @@ function Header() {
                 <a href="Stories">Stories</a>
             </nav>
             <div className="icons">
-            <i className="fa-solid fa-magnifying-glass head-icon"></i>
+            <i class="fa-solid fa-moon head-icon"></i>
+            <i className="fa-solid fa-magnifying-glass ml head-icon"></i>
             <i className="fa-solid fa-cart-shopping ml head-icon"></i>
             </div>
         </header>
