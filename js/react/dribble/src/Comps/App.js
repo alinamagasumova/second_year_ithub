@@ -10,19 +10,19 @@ import Main from './Main.js';
 import Awards from './Awards.js';
 
 function App() {
-  const [theme, setTheme] = useState(themes.light)
-  const handler = () => {
-    setTheme((prevTheme)=> prevTheme === themes.light? themes.dark: themes.light)
-  } 
-
+  // const [theme, setTheme] = useState(themes.light)
+  // const handler = () => {
+    // setTheme((prevTheme)=> prevTheme === themes.light? themes.dark: themes.light)
+  // } 
   return (
     <div className="App">
       <Header/>
       <Main/>
       <Awards/>
+      
       <Router>
         <Routes>
-          <Route path='/' element={<Home/>}/>
+          <Route path='/' element={<Header/>}/>
           <Route path='/about' element={<About/>}/>
           <Route path='/stories' element={<Stories/>}/>
           <Route path='/products' element={<Products/>}/>
