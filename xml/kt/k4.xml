@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="k4.xsl" ?>
+
+<items>
+    <element name="Компьютер" value="Intel Core Duo" price='30123'/>
+    <element name="Монитор" value="Dell 23'" price='10455'/>
+    <element name="Компьютер" value="Intel Core i5" price='43998'/>
+    <element name="Компьютер" value="Intel Core i7" price='48999'/>
+    <element name="printer" value="LBP 2900" price='12999'/>
+    <element name="Монитор" value="HP 21'" price='7000'/>
+    <element name="printer" value="Canon 3211" price='16500'/>
+</items>

@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/dribble_proj/static/css/main.58962034.css",
+    "main.js": "/dribble_proj/static/js/main.e53df8db.js",
+    "static/media/cup.png": "/dribble_proj/static/media/cup.59b9ab7fd338e73ef968.png",
+    "static/media/kastr.png": "/dribble_proj/static/media/kastr.6d53860bb402e44fe786.png",
+    "static/media/bott.png": "/dribble_proj/static/media/bott.d76c16d9c76292e726ad.png",
+    "static/media/circle.png": "/dribble_proj/static/media/circle.1ea18306fa3894d7d27d.png",
+    "index.html": "/dribble_proj/index.html",
+    "main.58962034.css.map": "/dribble_proj/static/css/main.58962034.css.map",
+    "main.e53df8db.js.map": "/dribble_proj/static/js/main.e53df8db.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58962034.css",
+    "static/js/main.e53df8db.js"
+  ]
+}

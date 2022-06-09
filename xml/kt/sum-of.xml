@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="sum-of.xsl"?>
+<sum-of-sequence>
+    <from>-3</from>
+    <to>2</to>
+</sum-of-sequence>
