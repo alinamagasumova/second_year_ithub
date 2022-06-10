@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+.itemContainer {
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+}
+
+.itemContainer button {
+  height: 20px;
+  margin-left: 10px;
+}
+
